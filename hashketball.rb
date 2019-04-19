@@ -148,7 +148,7 @@ end
 
 def player_numbers(team)
   if game_hash[:home][:team_name] == (team)
-    return game
+    game_hash[:home][:players]
 
 
 
