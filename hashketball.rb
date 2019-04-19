@@ -147,8 +147,18 @@ def team_names
 end
 
 def player_numbers(team)
+  a = []
   if game_hash[:home][:team_name] == (team)
-    game_hash[:home][:players]
+    game_hash[:home][:players].each do |teams, name|
+      a << name[:number]
+    end
+  else 
+    game_hash[:away][:players].each do |teams, name|
+      a << name[:number]
+    end
+  end
+  return a
+end
 
 
 
