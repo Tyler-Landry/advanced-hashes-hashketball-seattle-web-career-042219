@@ -146,7 +146,8 @@ def team_names
   return x
 end
 
-def player_numbers
+def player_numbers(team)
+  if game_hash
 
 
 
