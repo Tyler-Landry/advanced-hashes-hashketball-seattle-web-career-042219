@@ -133,8 +133,9 @@ end
 
 def team_colors(team)
   if game_hash[:home][:team_name].key?(team)
-    return game_hash[]
-  
+    return game_hash[:home][:colors]
+  else
+    return game_hash
 
 
 
