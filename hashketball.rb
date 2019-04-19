@@ -164,7 +164,9 @@ def player_stats(player)
   if game_hash[:home][:players].key?(player)
     return game_hash[:home][:players][name]
   else
-    
+    return game_hash[:away][:players][name]
+  end
+end
 
 
 
