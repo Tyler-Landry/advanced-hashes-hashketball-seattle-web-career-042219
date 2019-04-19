@@ -125,9 +125,9 @@ end
 
 def shoe_size(player)
   if game_hash[:home][:players].key?(player)
-    return game_hash[:home][:players][player][:shoe_size]
+    return game_hash[:home][:players][player][:shoe]
   else
-    return game_hash[:away][:players][player][:shoe_size]
+    return game_hash[:away][:players][player][:shoe]
   end
 end
 
