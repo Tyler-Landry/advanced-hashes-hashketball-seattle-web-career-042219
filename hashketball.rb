@@ -143,7 +143,7 @@ def team_names
  x = [] 
   x << game_hash[:home][:team_name]
   x << game_hash[:away][:team_name]
-  return teams
+  return x
 end
 
 
