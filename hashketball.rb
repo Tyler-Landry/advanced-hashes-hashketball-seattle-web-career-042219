@@ -168,7 +168,10 @@ def player_stats(player)
   end
 end
 
-
+def big_shoe_rebounds
+  a = 0
+  b = 0
+  game_hash[:home][:players].each do 
 
 
 
