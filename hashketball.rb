@@ -160,8 +160,11 @@ def player_numbers(team)
   return a
 end
 
-
-
+def player_stats(player)
+  if game_hash[:home][:players].key?(player)
+    return game_hash[:home][:players][name]
+  else
+    
 
 
 
